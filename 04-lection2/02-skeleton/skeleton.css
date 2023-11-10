@@ -1,0 +1,52 @@
+.card {
+    width: 579px;
+    height: 192px;
+    margin: 20px;
+}
+
+.skeleton {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 32px 24px;
+}
+
+.skeleton__header {
+    display: flex;
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-3);
+    flex-grow: 0;
+    margin-right: 16px;
+}
+
+.skeleton__info {
+    flex-grow: 1;
+}
+
+.skeleton__body {
+    margin-top: 24px;
+}
+
+.skeleton__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: center;
+}
+
+.skeleton__item {
+    height: 20px;
+    background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__item--w20 {
+    width: 20%;
+}
+
+.skeleton__item--w60 {
+    width: 60%;
+}
