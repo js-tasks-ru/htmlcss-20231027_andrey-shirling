@@ -1,0 +1,83 @@
+.card {
+    width: 354px;
+    height: 185px;
+    margin: 20px;
+}
+
+.histogram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.histogram__header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.histogram__title {
+    flex-grow: 1;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: var(--black);
+}
+
+.histogram__link {
+    flex-grow: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--blue-2);
+}
+
+.histogram__number {
+    width: 100%;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 6px;
+    margin-bottom: 39px;
+}
+
+.histogram__body {
+    display: flex;
+    column-gap: 1px;
+    align-items: flex-end;
+}
+
+.histogram__item {
+    width: 9px;
+    background-color: var(--blue-2);
+}
+
+.histogram__item--h50 {
+    height: 50px;
+}
+
+.histogram__item--h35 {
+    height: 35px;
+}
+
+.histogram__item--h22 {
+    height: 22px;
+}
+
+.histogram__item--h39 {
+    height: 39px;
+}
