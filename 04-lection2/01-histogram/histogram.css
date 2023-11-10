@@ -27,8 +27,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    text-transform: capitalize;
     color: var(--black);
+}
+
+.histogram__title:first-letter {
+    text-transform: uppercase;
 }
 
 .histogram__link {
@@ -38,10 +41,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    text-transform: capitalize;
     text-decoration: none;
     cursor: pointer;
     color: var(--blue-2);
+}
+
+.histogram__link:first-letter {
+    text-transform: uppercase;
 }
 
 .histogram__number {
