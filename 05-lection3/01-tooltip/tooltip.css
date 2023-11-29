@@ -1,5 +1,6 @@
 .tooltip {
     display: inline-flex;
+    position: relative;
 }
 
 .tooltip__trigger {
